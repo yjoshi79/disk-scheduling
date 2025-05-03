@@ -1,0 +1,34 @@
+/* Header.css / Footer.css */
+.header, .footer {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #333;
+  color: white;
+}
+
+.header-left h2 {
+  margin: 0;
+}
+
+.header-right {
+  display: flex;
+  gap: 20px;
+}
+
+.header-link {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.header-link:hover {
+  text-decoration: underline;
+}
